@@ -1,7 +1,6 @@
 import {
   chromecast,
   disc02,
-  discord,
   discordBlack,
   facebook,
   figma,
@@ -12,10 +11,7 @@ import {
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   plusSquare,
-  protopie,
   raindrop,
   recording01,
   recording03,
@@ -24,11 +20,16 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
+  react,
+  next,
+  tailwind,
+  azure,
+  styled,
+  mui,
 } from "../assets";
 
 export const navigation = [
@@ -123,66 +124,66 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Familiaridade com as bibliotecas e ferramentas associadas ao desenvolvimento React, como Redux para gerenciamento de estado, React ";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Compreensão do Ecossistema React:",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Autodidata e Aprendizado Contínuo",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Pensamento Crítico e Criatividade",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
+    title: "React",
+    icon: react,
+    width: 34,
+    height: 36,
+  },
+  {
+    id: "1",
+    title: "Next.js",
+    icon: next,
+    width: 36,
+    height: 28,
+  },
+  {
+    id: "2",
     title: "Figma",
     icon: figma,
     width: 26,
     height: 36,
   },
   {
-    id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
-  },
-  {
-    id: "2",
-    title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
-  },
-  {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Tailwind",
+    icon: tailwind,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Azure",
+    icon: azure,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
+    title: "Styled",
+    icon: styled,
+    width: 54,
+    height: 64,
   },
   {
     id: "6",
@@ -193,8 +194,8 @@ export const collabApps = [
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Mui",
+    icon: mui,
     width: 38,
     height: 32,
   },

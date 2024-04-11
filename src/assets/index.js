@@ -36,6 +36,12 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import react from "./collaboration/react.svg";
+import next from "./collaboration/next.png";
+import tailwind from "./collaboration/tailwind.png";
+import azure from "./collaboration/azure.png";
+import styled from "./collaboration/styled.png";
+import mui from "./collaboration/mui.jpg";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -145,5 +151,11 @@ export {
   instagram,
   telegram,
   twitter,
-  ds
+  ds,
+  react,
+  next,
+  tailwind,
+  azure,
+  styled,
+  mui,
 };
