@@ -12,7 +12,6 @@ import {
   notification3,
   notification4,
   plusSquare,
-  raindrop,
   recording01,
   recording03,
   roadmap1,

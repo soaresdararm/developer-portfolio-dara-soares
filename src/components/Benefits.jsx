@@ -68,7 +68,7 @@ const Benefits = () => {
     <Section id="features">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
+          className="md:max-w-md lg:max-w-5xl"
           title="Transformando ideias em experiências digitais envolventes e funcionais"
         />
         <div className="flex flex-wrap gap-10 mb-10">
