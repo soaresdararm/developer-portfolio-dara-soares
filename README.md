@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-      <img src='../brainwave/public/imgDs.png' alt="Project Banner">
+      <img src='public/imgDs.png' alt="Project Banner">
   <br />
 
   <div>
