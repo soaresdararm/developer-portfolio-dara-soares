@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-      <img src='public/imgDs.png' alt="Project Banner">
+      <img src='public/dev.png' alt="Project Banner">
   <br />
 
   <div>
