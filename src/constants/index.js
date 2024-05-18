@@ -39,25 +39,21 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Development",
+    url: "#react",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Front-End",
+    url: "front-end",
   },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
+
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
   // {
   //   id: "5",
   //   title: "Sign in",
@@ -73,9 +69,10 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Domínio de ES6+ e tipagem estática",
+  "Consumo eficiente de APIs e integração com backend",
+  "Utilização e implementação de componentes de design",
+  "Técnicas de otimização como Lazy Loading e Code Splitting",
 ];
 
 export const brainwaveServicesIcons = [
