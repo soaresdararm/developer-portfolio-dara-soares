@@ -36,8 +36,7 @@ const Services = () => {
               <h4 className="h4 mb-4">Dara Soares</h4>
               <p className="body-2 mb-[3rem] text-n-3">
                 Sou uma desenvolvedora front-end apaixonada por criar
-                experiências web responsivas e centradas no usuário. Com um
-                forte foco em usabilidade e design intuitivo.
+                experiências web responsivas e centradas no usuário.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
