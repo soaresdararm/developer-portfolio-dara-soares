@@ -18,7 +18,6 @@ const App = () => {
         <Services />
         <Footer />
       </div>
-
       <ButtonGradient />
     </>
   );
