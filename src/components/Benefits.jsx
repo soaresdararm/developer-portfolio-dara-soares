@@ -1,5 +1,4 @@
 import ClipPath from "../assets/svg/ClipPath";
-import Heading from "./Heading";
 import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
 import {
@@ -14,7 +13,7 @@ const benefits = [
   {
     id: "0",
     title: "Domínio de Tecnologias Front-end",
-    text: "Experiência sólida em desenvolvimento front-end, incluindo o uso de React.js e Next.js para criar interfaces de usuário dinâmicas e responsivas.",
+    text: "Experiência sólida em desenvolvimento front-end, incluindo o uso de React.js e Next.js.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -22,7 +21,7 @@ const benefits = [
   {
     id: "1",
     title: "Integração de Bibliotecas de Componentes",
-    text: "Experiência na integração e personalização de bibliotecas de componentes como Material-UI, aproveitando a vasta gama de recursos prontos para uso para acelerar o desenvolvimento e manter a consistência visual.",
+    text: "Experiência na integração e personalização de bibliotecas de componentes como Material-UI e Tailwind",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -31,7 +30,7 @@ const benefits = [
   {
     id: "2",
     title: "Habilidade em Styled-Components e Tailwind CSS",
-    text: "Competência em utilizar Styled-Components para criar estilos encapsulados e reutilizáveis dentro dos componentes React, bem como conhecimento em Tailwind CSS para desenvolvimento ágil de interfaces com uma abordagem utility-first.",
+    text: "Competência em utilizar Styled-Components para criar estilos reutilizáveis em React, assim como em Tailwind CSS para desenvolvimento ágil de interfaces com uma abordagem utility-first.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -39,7 +38,7 @@ const benefits = [
   {
     id: "3",
     title: "Pensamento Orientado ao Componente",
-    text: "Capacidade de decompor interfaces complexas em componentes reutilizáveis e independentes, seguindo as práticas recomendadas de desenvolvimento front-end e favorecendo uma arquitetura modular e escalável.",
+    text: "Capacidade de decompor interfaces complexas em componentes reutilizáveis e independentes, favorecendo uma arquitetura modular e escalável.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -55,8 +54,8 @@ const benefits = [
   },
   {
     id: "5",
-    title: "Expertise em Estilização",
-    text: "Domínio das técnicas de estilização com Styled-Components e Tailwind CSS, permitindo a criação de interfaces visualmente impressionantes, mantendo a flexibilidade e a manutenibilidade do código.",
+    title: "Consumo de APIs REST",
+    text: "A integração do front-end com o back-end para consumo de APIs REST permite uma comunicação eficiente e dinâmica entre a interface do usuário e os serviços de dados, proporcionando uma experiência mais responsiva e interativa.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

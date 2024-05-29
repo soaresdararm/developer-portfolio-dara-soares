@@ -6,7 +6,7 @@ const Heading = ({ className, title, text, tag }) => {
       className={`${className} max-w-[30rem] mx-auto mb-12 lg:mb-10 md:text-center`}
     >
       {tag && <TagLine className="mb-4 md:justify-center">{tag}</TagLine>}
-      {title && <h4 className="h4">{title}</h4>}
+      {title && <h5 className="h5">{title}</h5>}
       {text && <p className="body-2 mt-2 text-n-4">{text}</p>}
     </div>
   );
