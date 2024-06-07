@@ -1,15 +1,8 @@
-import Section from "./Section";
+import { check, service1 } from "../assets";
+import { brainwaveServices } from "../constants";
+import { Gradient } from "./design/Services";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
-import {
-  PhotoChatMessage,
-  Gradient,
-  VideoBar,
-  VideoChatMessage,
-} from "./design/Services";
-
-import Generating from "./Generating";
+import Section from "./Section";
 
 const Services = () => {
   return (
@@ -19,7 +12,6 @@ const Services = () => {
           title="Desenvolvedora Front-End "
           text="Estou ansiosa para continuar crescendo e contribuindo para projetos desafiadores e inovadores no futuro."
         />
-
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
@@ -31,7 +23,6 @@ const Services = () => {
                 src={service1}
               />
             </div>
-
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Dara Soares</h4>
               <p className="body-2 mb-[3rem] text-n-3">
@@ -51,7 +42,6 @@ const Services = () => {
               </ul>
             </div>
           </div>
-
           <Gradient />
         </div>
       </div>

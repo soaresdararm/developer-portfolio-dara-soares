@@ -1,17 +1,20 @@
-import { curve, heroBackground, bg } from "../assets";
-import Section from "./Section";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
+import { useRef, useState } from "react";
 import { ScrollParallax } from "react-just-parallax";
-import { useRef } from "react";
+import { bg, curve } from "../assets";
+import { heroIcons } from "../constants";
+import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Generating from "./Generating";
+import Section from "./Section";
+import Button from "./Button";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
 
+  const [isModal, setIsModal] = useState(false);
+
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[8.2rem] -mt-[5.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -32,12 +35,12 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className="body-1 max-w-1xl mx-auto mb-1 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-1xl mx-auto mb-1 text-n-2 lg:mb-4">
             Transformando linhas de código em experiências cativantes.
           </p>
-          {/* <Button href="/pricing" white>
-            Get started
-          </Button> */}
+          <div className="mt-4">
+            <Button onClick={() => setIsModal(true)}>Entre em Contato</Button>
+          </div>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-4">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
@@ -46,9 +49,9 @@ const Hero = () => {
               <div className="aspect-[33/40] rounded-b-[0.3rem] overflow-hidden md:aspect-[688/590] lg:aspect-[1024/490]">
                 <img
                   src={bg}
-                  className="w-full scale-[1] translate-y-[1%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[13%]"
+                  className="w-full scale-[1.9] translate-y-[24%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[13%]"
                   width={1024}
-                  height={690}
+                  height={490}
                   alt="AI"
                 />
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
@@ -61,33 +64,64 @@ const Hero = () => {
                     ))}
                   </ul>
                 </ScrollParallax>
-
-                {/* <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
-                  />
-                </ScrollParallax> */}
               </div>
             </div>
-
             <Gradient />
-          </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
-              src={heroBackground}
-              className="w-full"
-              width={1440}
-              height={1800}
-              alt="hero"
-            />
           </div>
           <BackgroundCircles />
         </div>
-        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
       </div>
-
       <BottomLine />
+      {isModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-purple-400 rounded-lg shadow-lg p-5 max-w-md mx-auto">
+            <h2 className="text-xl font-bold mb-4">Contato</h2>
+            <p className="mb-2">
+              Preencha o formulário abaixo para entrar em contato.
+            </p>
+            <form>
+              <div className="mb-4">
+                <label className="block text-sm font-medium mb-1">Nome</label>
+                <input
+                  type="text"
+                  className="w-full p-2 border rounded text-black"
+                />
+              </div>
+              <div className="mb-4">
+                <label className="block text-sm font-medium mb-1">Email</label>
+                <input
+                  type="email"
+                  className="w-full p-2 border rounded  text-black"
+                />
+              </div>
+              <div className="mb-4">
+                <label className="block text-sm font-medium mb-1">
+                  Mensagem
+                </label>
+                <textarea
+                  className="w-full p-2 border rounded  text-black"
+                  rows="4"
+                ></textarea>
+              </div>
+              <div className="flex justify-end">
+                <button
+                  type="button"
+                  className="mr-4 px-4 py-2 bg-indigo-950 rounded"
+                  onClick={() => setIsModal(false)}
+                >
+                  Cancelar
+                </button>
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-blue-600 text-white rounded"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </Section>
   );
 };
