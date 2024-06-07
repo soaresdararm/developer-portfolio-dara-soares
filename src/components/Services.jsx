@@ -50,8 +50,6 @@ const Services = () => {
                 ))}
               </ul>
             </div>
-
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
 
           <Gradient />

@@ -20,6 +20,9 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import herobg from "./hero.png";
+import bg from "./bg.png";
+
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -76,6 +79,7 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
+
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -160,4 +164,6 @@ export {
   styled,
   mui,
   linkedin,
+  herobg,
+  bg
 };
