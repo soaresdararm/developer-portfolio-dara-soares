@@ -38,9 +38,9 @@ const Hero = () => {
           <p className="body-1 max-w-1xl mx-auto mb-1 text-n-2 lg:mb-4">
             Transformando linhas de código em experiências cativantes.
           </p>
-          <div className="mt-4">
+          {/* <div className="mt-4">
             <Button onClick={() => setIsModal(true)}>Entre em Contato</Button>
-          </div>
+          </div> */}
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-4">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
