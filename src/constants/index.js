@@ -30,33 +30,20 @@ import {
 
 export const navigation = [
   {
-    id: "0",
-    title: "Development",
-    url: "#react",
-  },
-  {
     id: "1",
     title: "Front-End",
     url: "#front-end",
+  },
+  {
+    id: "0",
+    title: "Development",
+    url: "#react",
   },
   {
     id: "2",
     title: "Driving Software",
     url: "#software",
   },
-
-  // {
-  //   id: "4",
-  //   title: "New account",
-  //   url: "#signup",
-  //   onlyMobile: true,
-  // },
-  // {
-  //   id: "5",
-  //   title: "Sign in",
-  //   url: "#login",
-  //   onlyMobile: true,
-  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -295,6 +282,6 @@ export const socials = [
     id: "3",
     title: "linkedin",
     iconUrl: linkedin,
-    url: "https://www.linkedin.com/in/darasoares6466/",
+    url: "https://www.linkedin.com/in/darasoaresdevelopment/",
   },
 ];

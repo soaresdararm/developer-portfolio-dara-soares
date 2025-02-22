@@ -5,7 +5,6 @@ import { heroIcons } from "../constants";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Generating from "./Generating";
 import Section from "./Section";
-import Button from "./Button";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
